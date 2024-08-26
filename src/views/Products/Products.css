@@ -1,0 +1,12 @@
+.home-products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-subheading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+.home-conatiner {
+  position: relative;
+}
+
+.home-heading {
+  position: absolute;
+  top: -20px;
+  left: 40%;
+  color: white;
+}
+.home-image {
+  width: 100%;
+  height: 99vh;
+}
