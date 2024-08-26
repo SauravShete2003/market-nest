@@ -1,3 +1,7 @@
+const appTitle = "Market Nest";
+const headingImage =
+  "https://img.freepik.com/free-photo/shopping-cart-full-products-inside-supermarket_123827-28165.jpg";
+  const headingText = "Welcome to Market Nest";
 const productData = [
   {
     image:
@@ -8,16 +12,14 @@ const productData = [
       "Fresh and crispy red apples, perfect for snacking or adding to salads.",
   },
   {
-    image:
-      "https://m.media-amazon.com/images/I/81lIJ1udLXL.jpg",
+    image: "https://m.media-amazon.com/images/I/81lIJ1udLXL.jpg",
     title: "Banana",
     price: "60 /-",
     description:
       "Sweet and ripe bananas, rich in potassium and ideal for quick energy.",
   },
   {
-    image:
-      "https://cdn.mos.cms.futurecdn.net/UaBq5LGpJQd3DDo6ve2dFW.jpg",
+    image: "https://cdn.mos.cms.futurecdn.net/UaBq5LGpJQd3DDo6ve2dFW.jpg",
     title: "Orange",
     price: "120 /-",
     description:
@@ -69,47 +71,58 @@ const productData = [
       "Fresh whole wheat bread, perfect for snacking or making sandwiches.",
   },
   {
-    image : 'https://img.freepik.com/premium-photo/bowl-rice-rice-table-with-cloth_1112033-524.jpg',
+    image:
+      "https://img.freepik.com/premium-photo/bowl-rice-rice-table-with-cloth_1112033-524.jpg",
     title: "Rice",
     price: "30 /-",
     description: "Fresh rice, perfect for cooking and adding to meals.",
   },
   {
-    image: 'https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-9791.jpg',
+    image:
+      "https://img.freepik.com/premium-photo/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table_2829-9791.jpg",
     title: "Pasta",
     price: "60 /-",
     description: "Fresh pasta, perfect for cooking and adding to meals.",
   },
   {
-    image : 'https://img.freepik.com/free-photo/fresh-orange-juice-glass-dark-background_1150-45556.jpg',
+    image:
+      "https://img.freepik.com/free-photo/fresh-orange-juice-glass-dark-background_1150-45556.jpg",
     title: "Orange Juice",
     price: "100 /-",
-    description: "Fresh orange juice, perfect for drinking and staying hydrated.",
+    description:
+      "Fresh orange juice, perfect for drinking and staying hydrated.",
   },
   {
-    image : 'https://img.freepik.com/premium-photo/best-coffee_198067-1042828.jpg',
+    image:
+      "https://img.freepik.com/premium-photo/best-coffee_198067-1042828.jpg",
     title: "Coffee",
     price: "80 /-",
-    description : 'Rich and aromatic ground coffee, perfect for your morning brew.'
+    description:
+      "Rich and aromatic ground coffee, perfect for your morning brew.",
   },
   {
-    image : 'https://img.freepik.com/premium-photo/bowl-potato-chips-is-wooden-table-small-amount-parsley-is-also-table_1176045-16819.jpg',
+    image:
+      "https://img.freepik.com/premium-photo/bowl-potato-chips-is-wooden-table-small-amount-parsley-is-also-table_1176045-16819.jpg",
     title: "Potato Chips ",
     price: "120 /-",
-    description: "Crunchy potato chips, perfect for snacking and adding to meals.",
+    description:
+      "Crunchy potato chips, perfect for snacking and adding to meals.",
   },
   {
-    image : 'https://img.freepik.com/free-photo/chocolate-chips-cookies-arrangement_23-2149702500.jpg',
+    image:
+      "https://img.freepik.com/free-photo/chocolate-chips-cookies-arrangement_23-2149702500.jpg",
     title: "Chocolate Chip",
     price: "150 /-",
-    description: "Freshly baked chocolate chip cookies, perfect for snacking and adding to meals.",
+    description:
+      "Freshly baked chocolate chip cookies, perfect for snacking and adding to meals.",
   },
   {
-    image : 'https://img.freepik.com/premium-photo/pouring-ketchup-from-bottle-french-fries-minimalist-blue-background-deli-generative-ai_1259709-126505.jpg',
+    image:
+      "https://img.freepik.com/premium-photo/pouring-ketchup-from-bottle-french-fries-minimalist-blue-background-deli-generative-ai_1259709-126505.jpg",
     title: "Ketchup",
     price: "50 /-",
     description: "Classic tomato ketchup, a must-have for any kitchen.",
-  }
-]; 
+  },
+];
 
-export { productData };
+export { productData, appTitle, headingImage , headingText};
