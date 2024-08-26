@@ -5,7 +5,6 @@
   margin: 20px 13px;
   width: 240px;
   text-align: center;
-  height: 360px;
 }
 
 .product-description {
@@ -21,6 +20,7 @@
 
 .product-price {
   font-weight: bold;
+  margin: 0 5px;
 }
 
 .product-btn {
@@ -45,4 +45,29 @@
 
 .product-heading{
  margin: 4px;
+}
+
+
+.card-quantity-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px 10px;
+}
+
+.card-icon{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.card-quantity{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-price-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }

@@ -27,6 +27,14 @@ function ImageSlider() {
       src: "https://img.freepik.com/premium-photo/fresh-produce-shopping-cart-supermarket_1281119-703.jpg",
       alt: "grocery market",
     },
+    {
+      src: "https://img.freepik.com/premium-photo/various-groceries-shopping-cart_107420-66191.jpg",
+      alt : 'grocery market'
+    },
+    {
+      src: "https://img.freepik.com/free-photo/female-person-with-shopping-cart-taking-frozen-food-from-fridge-grocery-store_342744-1138.jpg",
+      alt: "grocery market",
+    }
   ];
   return (
     <div className="slider-container">
