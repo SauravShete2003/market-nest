@@ -1,8 +1,8 @@
-.home-products{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.home-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-subheading {
@@ -19,15 +19,23 @@
   border-radius: 20px;
   margin: 5px auto;
   display: block;
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
 }
 
 .input-box:focus,
 .input-box:active {
-  outline: none;  
+  outline: none;
 }
 
 .input-box::placeholder {
-  color: #bbb; 
-  font-style: italic; 
+  color: #bbb;
+  font-style: italic;
+}
+
+@media screen and (max-width: 500px) {
+  .input-box {
+    width: 300px;
+    font-size: 15px;
+    padding: 7px 15px;
+  }
 }
