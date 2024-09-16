@@ -19,11 +19,9 @@ function ProductCard({ description, title, image, price }) {
   useEffect(() => {
     if (quantity < 3) {
       setTotalPrice(quantity * price);
-
     } else if (quantity >= 3 && quantity <= 6) {
       const total = quantity * price;
       setTotalPrice(total - 20);
-      
     } else if (quantity < 10) {
       const total = quantity * price;
       setTotalPrice(total - 50);
