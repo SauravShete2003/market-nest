@@ -10,3 +10,24 @@
   font-weight: 700;
   text-align: center;
 }
+
+.input-box {
+  border: 2px solid rgb(172, 86, 86);
+  width: 400px;
+  font-size: 17px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 5px auto;
+  display: block;
+  background-color: #f9f9f9; 
+}
+
+.input-box:focus,
+.input-box:active {
+  outline: none;  
+}
+
+.input-box::placeholder {
+  color: #bbb; 
+  font-style: italic; 
+}
