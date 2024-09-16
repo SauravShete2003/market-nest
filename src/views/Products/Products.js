@@ -12,11 +12,10 @@ function Products() {
       setFilterData([...productData]);
       return;
     }
-
+ 
     const newData = productData.filter((item) =>
       item.title.toLowerCase().includes(search.toLowerCase())
     );
-    console.log(newData, search);
     setFilterData(newData);
   }, [search]);
 
